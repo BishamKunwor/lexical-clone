@@ -1,12 +1,17 @@
 {
   "name": "lexical",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "version": "0.0.0",
+  "description": "Lexical is an extensible text editor framework that provides excellent reliability, accessible and performance.",
+  "main": "Lexical.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "keywords": [
+    "react",
+    "lexical",
+    "editor",
+    "contenteditable",
+    "rich-text"
+  ],
+  "license": "MIT"
 }

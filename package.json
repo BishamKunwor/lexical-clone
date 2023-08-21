@@ -8,7 +8,7 @@
   },
   "engineStrict": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "npm run start -w packages/lexical-playground"
   },
   "author": {
     "name": "Bisham Kunwor",
@@ -18,5 +18,8 @@
   "license": "MIT",
   "workspaces": [
     "packages/*"
-  ]
+  ],
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
 }
