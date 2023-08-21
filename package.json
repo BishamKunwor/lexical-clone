@@ -1,0 +1,22 @@
+{
+  "name": "@lexical/monorepo",
+  "version": "0.0.0",
+  "description": "Lexical is an extensible text editor framework that provides excellent reliability, accessibility and performance.",
+  "private": true,
+  "engines": {
+    "npm": ">=8.2.3"
+  },
+  "engineStrict": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "name": "Bisham Kunwor",
+    "email": "novelian.nova@gmail.com",
+    "url": "http://bishamkunwor.com.np"
+  },
+  "license": "MIT",
+  "workspaces": [
+    "packages/*"
+  ]
+}
